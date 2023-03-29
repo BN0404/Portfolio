@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
+.app{
+font-family: 'Courier New', Courier, monospace;
+font-weight: 100;
+background-color: rgb(203, 205, 210);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.footer{
+display: flex;
+justify-content: center;
+height: 0vh ;
+background-color: rgb(221, 221, 237);
+margin-top: 50vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.icon{
+height: 3rem;
+width: 3rem;
+justify-content: space-evenly;
+padding: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.facebook{
+color:black;
 }
 
-.App-link {
-  color: #61dafb;
+.facebook:hover{
+color: gray;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.github{
+color: rgb(29, 27, 25);
 }
+
+.github:hover{
+    color: gray;
+    }
+
+.linkedin{
+color: rgb(24, 24, 23);
+}
+
+.linkedin :hover{
+    color: gray;
+    }
+
+.picture{
+border-radius: 50%;
+display: flex;
+
+}
+
+.picture :hover {
+ transform: scale(1.05);
+transition: 1s ease-out;
+}
+
+/* .span{
+
+} */
+
+.nav {
+    position: sticky;
+    position: -webkit-sticky;
+    padding: 10px;
+    top: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(237, 237, 249);
+    height: 100px;
+
+}
+
+ul {
+    display: inline;
+    padding: 10px;
+    overflow: hidden;
+}
+
+li {
+    /* display: inline; */
+    float: left;
+    padding: 10px;
+    /* text-align: center; */
+}
+/* 
+li: a {
+font-size: 15px;
+align-items: center;
+
+} */
