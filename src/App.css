@@ -74,14 +74,18 @@ transition: 1s ease-out;
 
 ul {
     display: inline;
-    padding: 10px;
+    padding: 0px;
+    margin: 0;
     overflow: hidden;
+    list-style-type: none;
+    grid-template-columns: repeat(6, auto);
 }
 
 li {
-    /* display: inline; */
+    display: block;
     float: left;
     padding: 10px;
+
     /* text-align: center; */
 }
 /* 
@@ -90,3 +94,6 @@ font-size: 15px;
 align-items: center;
 
 } */
+
+li :hover {
+}

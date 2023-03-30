@@ -1,6 +1,16 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Wireframe of the Project:
+
+![](./src/assest/homePage.jpg)
+
+![](./src/assest/aboutMe.png)
+
+![](./src/assest/projects.png)
+
+![](./src/assest/latestNews.png)
+
+![](./src/assest/contactMe.png)
 
 ## Available Scripts
 
