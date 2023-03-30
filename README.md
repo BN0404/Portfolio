@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-Wireframe of the Project:
+## Wireframe of the Project:
 
 ![](./src/assest/homePage.jpg)
 

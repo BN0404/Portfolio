@@ -49,6 +49,7 @@ color: rgb(24, 24, 23);
 border-radius: 50%;
 display: flex;
 
+
 }
 
 .picture :hover {
@@ -61,39 +62,87 @@ transition: 1s ease-out;
 } */
 
 .nav {
-    position: sticky;
-    position: -webkit-sticky;
-    padding: 10px;
-    top: 0;
-    display: flex;
-    flex-wrap: nowrap;
+    /* position: sticky; */
+    /* position: -webkit-sticky; */
+    /* padding: 10px; */
+    /* top: 0; */
+    /* display: flex; */
+    /* flex-wrap: nowrap; */
     background-color: rgb(237, 237, 249);
-    height: 100px;
-
-}
+    box-sizing: border-box;
+ }
 
 ul {
-    display: inline;
-    padding: 0px;
+    display: flex;
+    padding: 10px;
     margin: 0;
     overflow: hidden;
     list-style-type: none;
-    grid-template-columns: repeat(6, auto);
+    /* border:  */
+    background-color: rgb(133, 133, 138);
+
+    /* grid-template-columns: repeat(6, auto); */
 }
 
 li {
-    display: block;
-    float: left;
-    padding: 10px;
+   display: inline-block;
+    padding: 0px 20px;
 
     /* text-align: center; */
 }
-/* 
-li: a {
-font-size: 15px;
-align-items: center;
 
-} */
 
-li :hover {
+li Link {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 10px;
+/* align-items: center; */
 }
+
+li Link:hover:not(.active){
+background-color: rgb(71, 99, 140);
+} 
+
+
+
+li Link:hover{
+background-color: rgb(64, 64, 123);
+}
+
+.techNews{
+    width:90%;
+    border: 1px solid;
+    margin-bottom: 20px;
+    padding: 25px;
+    }
+
+
+    .img{
+        width: 400px;
+        background-image: "https://media.istockphoto.com/id/1355531876/vector/newspaper-paper-grunge-vintage-old-aged-texture-background.jpg?s=612x612&w=0&k=20&c=nBD7LK9Iul20lb41WJoDKJoOA_mB6SehYSBLViLZboY=";
+        }
+
+
+    .name {
+    display: flex;
+    flex-direction: left;
+    border: 1px dotted wheat;
+    width: 100 px;
+    height:100px;
+    padding:10px;
+    }
+
+    .picture{
+        display: flex;
+        flex-direction: right;
+        border: 1px dotted wheat;
+        width: 100 px;
+        height:100px;
+    }
+
+
+    .qualification{
+    
+    
+    }

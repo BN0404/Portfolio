@@ -1,10 +1,10 @@
-// import LatestTechNews from "../components/LatestTechNews";
+import LatestTechNews from "../components/LatestTechNews";
 
-// function LatestTechNews() {
-//     return (
+function LatestNews() {
+    return (
     
-//     <LatestTechNews/>
-//         )
-// }
+    <LatestTechNews/>
+        )
+}
 
-// export default LatestTechNews;
+export default LatestNews;
