@@ -8,7 +8,7 @@ const LatestTechNews = () => {
     
     useEffect(() => {
         const getArticles = async () => {
-            const response = await axios.get("https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=7cf0863f30c3472985348140b5bc61fb")
+            const response = await axios.get(`https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=${process.env.REACT_APP_APIKEY}`)
             console.log(response);
             setArticles(response.data.articles)
         
