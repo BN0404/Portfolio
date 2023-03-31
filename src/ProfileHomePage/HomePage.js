@@ -1,5 +1,5 @@
 import profile_pic from "../assest/profile_pic.jpeg";
-
+import Footer from "./Footer";
 
 function HomePage() {
 
@@ -17,7 +17,12 @@ function HomePage() {
             height : "30rem"
           }}
         />
-            </div>
+        </div>
+        
+        <div className="footer--HomePage">
+          <Footer/>
+</div>
+
             </div>
     );
 }

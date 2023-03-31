@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import Footer from "./Footer";
 
 function ContactMe() {
     const form = useRef();
@@ -29,6 +30,9 @@ function ContactMe() {
                 
                 <button type="submit" className="--btn"> Send Message </button>
             </form>
+            
+
+            <Footer />
         </div>
     
     )

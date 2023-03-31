@@ -1,7 +1,7 @@
 .app{
 font-family: 'Courier New', Courier, monospace;
 font-weight: 100;
-background-color: rgb(203, 205, 210);
+/* background-color: rgb(203, 205, 210); */
 }
 
 
@@ -10,7 +10,12 @@ display: flex;
 justify-content: center;
 height: 0vh ;
 background-color: rgb(221, 221, 237);
-margin-top: 50vh;
+margin-top: 15vh;
+}
+
+.footer--HomePage{
+margin-top: 30rem;
+
 }
 
 .icon{
@@ -79,7 +84,7 @@ ul {
     overflow: hidden;
     list-style-type: none;
     /* border:  */
-    background-color: rgb(133, 133, 138);
+    /* background-color: rgb(133, 133, 138); */
 
     /* grid-template-columns: repeat(6, auto); */
 }
@@ -111,15 +116,18 @@ background-color: rgb(64, 64, 123);
 }
 
 .techNews{
-    width:90%;
+    /* width:50%; */
     border: 1px solid;
-    margin-bottom: 20px;
-    padding: 25px;
+    margin: 20px;
+    /* padding: 25px; */
+    float: left;
+    width: 40%;
+    padding: 20px;
     }
 
 
     .img{
-        width: 400px;
+        width: 300px;
         background-image: "https://media.istockphoto.com/id/1355531876/vector/newspaper-paper-grunge-vintage-old-aged-texture-background.jpg?s=612x612&w=0&k=20&c=nBD7LK9Iul20lb41WJoDKJoOA_mB6SehYSBLViLZboY=";
         }
 
@@ -142,7 +150,57 @@ background-color: rgb(64, 64, 123);
     }
 
 
-    .qualification{
-    
+
+.background{
+    background-size: 50%;
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+    background-repeat: no-repeat;
+    width: 50%;
+    background-position: left;
+}
+
+    ul.am{
+        color: rgb(24, 20, 20);
+        font-weight: bold;
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        transform: translate(-60%, -20%);
+        z-index: 2;
+        width:80%;
+        padding: 0px;
+        font-size:medium;
+        height: 60%;
+    }
+
+   .aboutMe li {
+list-style-type: circle;
+font-family: 'Courier New', Courier, monospace;
+    }
+
+
+
+    .proj{
+    box-sizing: border-box;
     
     }
+
+    .right{
+    float: left;
+    width: 40%;
+    padding: 10px;
+}
+
+.left::after{
+content: "";
+clear: both;
+display: table;
+}
+
+
+
+/* .aboutMe{
+
+
+} */
