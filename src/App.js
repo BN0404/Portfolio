@@ -1,5 +1,5 @@
 import AboutMe from "./ProfileHomePage/AboutMe";
-import Footer from "./ProfileHomePage/Footer";
+// import Footer from "./ProfileHomePage/Footer";
 import { Routes, Route } from "react-router-dom";
 import ContactMe from "./ProfileHomePage/ContactMe";
 import Projects from "./ProfileHomePage/Projects";

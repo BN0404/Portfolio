@@ -11,7 +11,7 @@ function HomePage() {
           </div>
 
       <div className="picture">
-        <img src={profile_pic}
+        <img src={profile_pic} alt ="Profile Pic"
           style={{
             width : "30rem",
             height : "30rem"

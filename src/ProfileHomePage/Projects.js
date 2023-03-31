@@ -1,6 +1,6 @@
 
-import { faBorderAll } from "@fortawesome/free-solid-svg-icons";
-import { FaDirections } from "react-icons/fa";
+// import { faBorderAll } from "@fortawesome/free-solid-svg-icons";
+// import { FaDirections } from "react-icons/fa";
 import {Link} from "react-router-dom";
 // import { FaGithub } from "react-icons/fa";
 
@@ -36,7 +36,7 @@ function Projects() {
       <div className="right">
       <Link to="https://github.com/BN0404/stockpriceapp">
       
-            <img src="https://static.chasecdn.com/content/services/structured-image/image.desktopLarge.jpg/articles/thumbnail-image-large/how-does-the-stock-market-work-2560x1440.jpg"
+            <img src="https://static.chasecdn.com/content/services/structured-image/image.desktopLarge.jpg/articles/thumbnail-image-large/how-does-the-stock-market-work-2560x1440.jpg" alt ="Project"
           style={{
             width : "10rem",
             height: "10rem",
@@ -64,7 +64,7 @@ function Projects() {
       </div>
 <div className="right">
 <Link to ="https://github.com/BN0404/latestnewsapp">
-            <img src="https://www.shutterstock.com/image-vector/breaking-news-background-world-global-260nw-719766118.jpg"
+            <img src="https://www.shutterstock.com/image-vector/breaking-news-background-world-global-260nw-719766118.jpg" alt ="Project"
           style={{
             width : "10rem",
             height: "10rem",
