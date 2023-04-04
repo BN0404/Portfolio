@@ -7,26 +7,17 @@ import React from "react";
 function AboutMe() {
   return (
     <div className="aboutMe">
-    <h1> About Me</h1>
+   
       <div className="qualification">
-      <img class="background" src="https://web-static.wrike.com/blog/content/uploads/2014/09/iStock-654454404-e1511259452480.jpg?av=7583717527279757003df94b1a6336e4" alt ="Profile Pic"/>
-        <h2> Qualification</h2> 
-        <ul className="am">
-        <li>Per Scholas Software Engineering</li>
-          <li> Bachelors in Electronics</li>
-          <li> Masters in Operational Research </li>
-          <li> Bachelors in Education </li>
-        </ul>
+        <img class="background" src="https://cdn.xxl.thumbs.canstockphoto.com/about-me-key-button-about-me-sign-and-letters-on-computer-keyboard-for-blog-and-web-concept-3d-stock-illustrations_csp31721551.jpg" alt="Little about me" />
+        
+        <p className="am">
+        <h1 > Little bit about Me:</h1>
+        Hi!! I am Bhagwati Nagarkoti I taking the Per Scholas Software Engineering program where I am working on projects using tools and languages like JavaScript, React, HTML, CSS, GitHub, bootstrap. I am Masters in Science in Operational Research field, also I am Bachelors in Electronics as well as Education . In past I worked as a Quality Assurance Analyst, teacher and Tester where I work on tools like SQL, Advance MS Excel, quality center, UFT. Now I am planning to start my career as a software developer and apply my knowledge, curiosity, experience and problem-solving attitude in this field.
+      </p>
     </div>
-      
-      <div className="experience">
-        <ul className="bm">
-          <h2> Experience</h2>
-          <li> QA Analyst</li>
-          <li> Teacher</li>
-          <li> Manual Tester</li>
-        </ul>
-</div>
+   
+  
 
 
       {/* <div>
@@ -38,7 +29,7 @@ function AboutMe() {
       </div> */}
 
   
-    </div>
+      </div>
   );
 }
 

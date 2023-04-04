@@ -4,7 +4,6 @@ font-weight: 100;
 /* background-color: rgb(203, 205, 210); */
 }
 
-
 .footer{
 display: flex;
 justify-content: center;
@@ -30,7 +29,7 @@ color:black;
 }
 
 .facebook:hover{
-color: gray;
+color: rgb(51, 23, 130);
 
 }
 
@@ -39,7 +38,7 @@ color: rgb(29, 27, 25);
 }
 
 .github:hover{
-    color: gray;
+    color: rgb(51, 23, 130);
     }
 
 .linkedin{
@@ -47,14 +46,12 @@ color: rgb(24, 24, 23);
 }
 
 .linkedin :hover{
-    color: gray;
+    color: rgb(51, 23, 130);
     }
 
 .picture{
 border-radius: 50%;
 display: flex;
-
-
 }
 
 .picture :hover {
@@ -62,58 +59,74 @@ display: flex;
 transition: 1s ease-out;
 }
 
+/* .navbar {
+    background: rgb(47, 47, 74);
+}
+
+.home,
+.navList {
+    color: aliceblue;
+}
+
+.navList :hover {
+    color: blue !important;
+} */
 /* .span{
 
 } */
 
 .nav {
-    /* position: sticky; */
-    /* position: -webkit-sticky; */
-    /* padding: 10px; */
-    /* top: 0; */
+    position: sticky;
+    position: -webkit-sticky;
+    padding: 0px;
+    top: 0px;
+    margin: 0px;
     /* display: flex; */
+    color: whitesmoke;
     /* flex-wrap: nowrap; */
-    background-color: rgb(237, 237, 249);
-    box-sizing: border-box;
- }
-
+    /* background-color: rgb(237, 237, 249); */
+    /* box-sizing: border-box; */
+    text-decoration: none;
+}
+       
 ul {
     display: flex;
     padding: 10px;
     margin: 0;
     overflow: hidden;
     list-style-type: none;
-    /* border:  */
-    /* background-color: rgb(133, 133, 138); */
-
-    /* grid-template-columns: repeat(6, auto); */
+    color: whitesmoke;
+    /* border: */
+    background-color: rgb(10, 10, 79);
+    grid-template-columns: repeat(6, auto);
 }
 
 li {
    display: inline-block;
+   color: whitesmoke;
     padding: 0px 20px;
-
-    /* text-align: center; */
-}
+    text-align: center;
+ }
 
 
 li Link {
     display: block;
-    color:black;
     text-align: center;
     padding: 10px;
-/* align-items: center; */
+       
+align-items: center; 
 }
 
 li Link:hover:not(.active){
-background-color: rgb(71, 99, 140);
-} 
+background-color: rgb(28, 67, 126);
 
-
+}
 
 li Link:hover{
-background-color: rgb(64, 64, 123);
+background-color: rgb(48, 15, 109);
+
 }
+
 
 .techNews{
     /* width:50%; */
@@ -127,63 +140,67 @@ background-color: rgb(64, 64, 123);
 
 
     .img{
-        width: 300px;
-        background-image: "https://media.istockphoto.com/id/1355531876/vector/newspaper-paper-grunge-vintage-old-aged-texture-background.jpg?s=612x612&w=0&k=20&c=nBD7LK9Iul20lb41WJoDKJoOA_mB6SehYSBLViLZboY=";
+        width: 300px;       
         }
+    
 
 
-    .name {
-    display: flex;
-    flex-direction: left;
-    border: 1px dotted wheat;
-    width: 100 px;
+.homepage{
+ background-color: rgb(71, 71, 204);
+}
+
+    .name {  
+    float: left;
+    /* flex-direction: left; */
+    /* border: 1px dotted wheat; */
+    width: 40%;
     height:100px;
-    padding:10px;
+    padding:30px;
     }
 
     .picture{
-        display: flex;
-        flex-direction: right;
-        border: 1px dotted wheat;
-        width: 100 px;
+        /* float: right; */
+        /* flex-direction: right; */
+        /* border: 1px dotted wheat; */
+        width: 50%;
+        padding-top: 30px;
         height:100px;
     }
 
 
 
 .background{
-    background-size: 50%;
+    background-size: 100%;
     -webkit-filter: blur(5px);
-    filter: blur(5px);
+    filter: blur(8px);
     background-repeat: no-repeat;
-    width: 50%;
+    width: 100%;
     background-position: left;
+    
 }
 
-    ul.am{
-        color: rgb(24, 20, 20);
+                .am {
+                    color: rgb(25, 12, 41);
         font-weight: bold;
         position: absolute;
         top: 50%;
         left: 30%;
-        transform: translate(-60%, -20%);
+        transform: translate(-20%, -70%);
         z-index: 2;
         width:80%;
-        padding: 0px;
-        font-size:medium;
+        /* padding: 20px; */
+            font-size: large;
         height: 60%;
+        padding-top: 30vh;
+            font-family: comic 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
-   .aboutMe li {
-list-style-type: circle;
-font-family: 'Courier New', Courier, monospace;
-    }
 
 
 
     .proj{
     box-sizing: border-box;
-    
+    background-color: rgb(71, 71, 173);
     }
 
     .right{
@@ -200,7 +217,36 @@ display: table;
 
 
 
-/* .aboutMe{
+.form {
+    background-color: rgb(97, 97, 234);
+    margin-top: 10px;
+   height: 100%;
+    padding: 10px;
+    color: rgb(27, 26, 29);
+    /* background-color: blanchedalmond; */
+    font-weight: bold;
+    /* border: 3px solid #f1f1f1; */
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    /* z-index: 2; */
+    /* width: 80%; */
+    padding: 20px;
+    text-align: center;
+}
 
 
-} */
+.btn {
+    background: rgb(96, 171, 103);
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 60px;
+    padding: 5px;
+}
+    
+/*         
+.btn :hover{
+    background: rgb(122, 122, 128) ;
+        } */

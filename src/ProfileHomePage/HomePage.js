@@ -4,7 +4,7 @@ import Footer from "./Footer";
 function HomePage() {
 
     return (
-      <div>
+      <div className="homepage">
         <div className="name"> 
     <h1 > Hi, I am <span>Bhagwati Nagarkoti </span> </h1>
           <p className="tagline">Front and back end developer </p>
